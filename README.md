@@ -4,5 +4,6 @@ A) Data Assimilation used for estimating states for a 1 D nonlinear oscillator (
 2) Ensemble Kalman Filer (EnKF)
 
 
-B) Enkf and particle filter for a high dimensional van der Pol system (high_dem)
+B) Enkf and particle filter for a high dimensional van der Pol system (high_dim.py)
+
 C) Spatio temporal dynamics of Fitz hugh Van der Pol system.
