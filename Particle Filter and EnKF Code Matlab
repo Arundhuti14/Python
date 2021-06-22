@@ -15,9 +15,6 @@ n=2; %number of measurements
 [tr,xr] = ode45(@VanderPolt,tspan,X0);
 truth =cat(2,TT',xr);
 %% parameters
-sigma1=0.1; % Variance of x %
-sigma2=0.1; % Variance of y %
-sigma3=0.09; % Variance of mu%
 R=0.01;    %0.001%  % variance measurement Error%
 mem=5000;   %ensemble members%
 dt=1;       %sampling frequency
